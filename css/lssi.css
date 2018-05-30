@@ -1,0 +1,28 @@
+* {
+  background-color: rgb(7, 21, 31);
+}
+
+.avilegal {
+  color:rgb(255, 255, 255);
+  margin-top: 15px;
+  margin-left: 37%;
+  font-size: 160%;
+  vertical-align: middle;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-family: 'Hind', sans-serif;
+}
+
+p {
+  font-family: 'Hind', sans-serif;
+}
+
+.negreta {
+  font-weight: bolder;
+  text-decoration: underline;
+}

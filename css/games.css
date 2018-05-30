@@ -1,0 +1,106 @@
+  body {
+    background-color: black;
+  }
+
+  #bgimg {
+    position: fixed;
+    width: 100%;
+  }
+
+  .contdiv {
+    padding-right: 6%;
+    padding-bottom: 13%;
+    border: 1px solid white;
+    position: absolute;
+    transition: background-color 1s;
+  }
+
+  .contdiv:hover {
+    background-color: rgba(32, 103, 240, 0.87);
+  }
+
+  #onediv {
+    margin-left: 20.5%;
+    margin-top: 5%;
+  }
+
+
+
+  .txtdivs {
+    color: rgb(219, 189, 59);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Faster One', cursive;
+    font-size: 350%;
+    margin-right: -30%;
+    margin-top: 250px;
+  }
+
+  #secdiv {
+    margin-left: 51%;
+    margin-top: 5%;
+  }
+
+  #thirddiv {
+    margin-left: 20.5%;
+    margin-top: 35.5%;
+  }
+
+  #fourdiv {
+    margin-left: 51%;
+    margin-top: 35.5%;
+  }
+
+  @media only screen and (max-width: 1874px) {
+      .contdiv {
+        padding-right: 10%;
+        padding-bottom: 10%;
+      }
+      .txtdivs {
+        font-size: 250%;
+        margin-top: 210px;
+        margin-right: -60%;
+      }
+  }
+
+  @media only screen and (max-width: 1674px) {
+      .contdiv {
+        padding-right: 8%;
+        padding-bottom: 10%;
+      }
+      .txtdivs {
+        margin-top: 170px;
+        margin-right: -45%;
+      }
+  }
+
+  @media only screen and (max-width: 1474px) {
+      .contdiv {
+        padding-right: 6%;
+        padding-bottom: 5%;
+      }
+      .txtdivs {
+        margin-top: 90px;
+        margin-right: -30%;
+      }
+      #thirddiv, #fourdiv {
+        margin-top: 25%;
+      }
+  }
+
+  @media only screen and (max-width: 1274px) {
+      #onediv, #secdiv, #thirddiv, #fourdiv {
+        margin-left: 30%;
+      }
+      #secdiv {
+        margin-top: 45%;
+      }
+      #fourdiv {
+        margin-top: 65%;
+      }
+      .txtdivs {
+        margin-top: 70px;
+        margin-right: -20%;
+      }
+  }

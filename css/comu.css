@@ -1,0 +1,62 @@
+* {
+  /* background-color: rgb(18, 18, 18); */
+  margin: 0;
+}
+
+
+header {
+ /* border: 1px solid red; */
+ padding-bottom: 50px;
+}
+
+/* Barra de navegació */
+ul {
+  list-style-type: none;
+  padding: 0;
+  width:750px;
+  margin:0 auto;
+  list-style:none;
+  /* border: 1px solid red; */
+}
+
+li {
+  padding: 9px;
+  float: right;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  /* margin-top: 5%; */
+}
+
+a {
+  font-family: 'Nanum Gothic';
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+ul a {
+  display:block;
+  text-align:center;
+  width:130px;
+  text-decoration:none;
+}
+
+.xhuver:hover {
+  background-color: rgb(198, 198, 198);
+  color: black;
+}
+
+
+/* logo */
+#divlogo {
+  width: 750px;
+  /* border: 1px solid white; */
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#deflogo {
+  margin-top: 5%;
+  width: 300px;
+}

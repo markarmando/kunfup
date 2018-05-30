@@ -1,0 +1,59 @@
+* {
+  background-color: rgb(45, 45, 45);
+}
+
+#type {
+}
+
+.espai {
+  margin-top: 4%;
+  /* border: 1px solid red; */
+  padding-bottom: 100px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Economica', sans-serif;
+}
+
+.perfils {
+  /* border: 1px solid white; */
+  padding: 100px;
+  float: left;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: 'Economica', sans-serif;
+  font-size: 200%;
+}
+
+#perfil1 {
+   margin-left: 13%;
+}
+
+.users {
+   width: 270px;
+   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1630px) {
+  #perfil1 {
+    margin-left: 20%;
+  }
+  #perfil2 {
+    margin-left: 3%;
+  }
+  #perfil3{
+    margin-left: 35%;
+  }
+}
+
+@media only screen and (max-width: 1330px) {
+  #perfil1 {
+    margin-left: 30%;
+  }
+  #perfil2 {
+    margin-left: 30%;
+  }
+  #perfil3{
+    margin-left: 30%;
+  }
+}
